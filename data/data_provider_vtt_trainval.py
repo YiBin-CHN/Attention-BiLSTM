@@ -131,14 +131,7 @@ class DataProvider(object):
         print 'All data ready!'
         print 'Here are %d tr and %d val captions in total!' %(tr_num,val_num)
         print "vocabulary size:",vocab_size
-        print "verify name index and feature order, should display\
-                [0:9],[9972:10000],[44997:45008],[99993:100009],[123448:123459],[144384:]"
-        print self.name_map['video6881']
-        print self.name_map['video7890']
-        print self.name_map['video6172']
-        print self.name_map['video7735']
-        print self.name_map['video3606']
-        print self.name_map['video9575']
+
     def get_feature_idx(self,listfile):
         """
         listfile should be an absolute path
