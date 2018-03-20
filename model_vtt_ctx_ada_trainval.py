@@ -3,7 +3,7 @@ import theano.tensor as T
 from layers.lstm import LSTM
 from layers.lstm_sa import LSTM_SA
 from layers.drop import drop
-import optimizers_c as optimizers
+import optimizers as optimizers
 from layers.dense import Dense
 from layers.embed import Embedding
 from data.data_provider_vtt_trainval import DataProvider as data_provider
